@@ -1,5 +1,5 @@
 ---
-name: Phone Wallpaper Generator
+name: wallpaper-generator
 description: 用户输入主题，自动扩展并生成6张覆盖主流机型比例（iPhone/Samsung/Huawei/Xiaomi）的手机壁纸,生成的图片保存在wallpapers文件夹下,图片命名格式为 wallpaper_[theme]_[机型].png,图片质量为4k
 ---
 

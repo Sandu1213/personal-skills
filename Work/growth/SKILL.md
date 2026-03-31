@@ -1,6 +1,5 @@
 ---
-name: Personal Growth Tracker
-version: 1.0.0
+name: growth
 description: 个人成长追踪技能，围绕健康、英语学习、财务计划三大板块，支持日常记录与周期报告生成。触发命令：growth log health / growth log english / growth log finance / growth report
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: Video Downloader
+name: video-downloader
 version: 1.0.0
 description: 下载视频文件并支持音频提取，支持YouTube、Bilibili(B站)、X(Twitter)等主流平台.下载的视频保存在videos文件夹下,音频保存在audio文件夹下.
 ---
