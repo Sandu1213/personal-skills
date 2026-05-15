@@ -6,10 +6,12 @@
 
 ## 1. 确定分类
 
-将你的 Skill 归入以下两个类别之一：
+将你的 Skill 归入以下类别之一：
 
 | 类别 | 路径 | 适用场景 |
 |------|------|---------|
+| **Agent** | `Agent/your-skill-name/` | Agent 协作、上下文管理、技能维护、代码审查流程等通用 AI 工作流 |
+| **External** | `External/README.md` | 第三方外部 skill 索引，只记录名称、仓库地址、使用场景和迁移状态，不作为可加载 skill |
 | **Work** | `Work/your-skill-name/` | 周报、演示文稿、发布、内容转换等工作场景 |
 | **Fun** | `Fun/your-skill-name/` | 视频、壁纸、漫画、图片生成等休闲创作场景 |
 
@@ -17,13 +19,21 @@
 
 ```
 personal-skills/
-└── Work/  (或 Fun/)
+└── Agent/  (或 Work/Fun/)
     └── your-skill-name/       # 使用 kebab-case 命名
         ├── SKILL.md            # 必须：技能说明文件
         ├── scripts/            # 可选：辅助脚本
         ├── references/         # 可选：参考资料/模板
         └── examples/           # 可选：示例文件
 ```
+
+如果只是记录第三方外部 skill，不要创建普通 skill 目录，直接更新：
+
+```text
+External/README.md
+```
+
+`External/` 不要求包含 `SKILL.md`，它不是可加载 skill，只是迁移和安装索引。
 
 ## 3. 编写 SKILL.md
 
@@ -68,6 +78,14 @@ description: 一句话描述该技能的功能和触发关键字
 ```markdown
 | [your-skill-name](Work/your-skill-name/) | `触发关键字` | 简要功能描述 |
 ```
+
+如果 README 表格包含“直接调用示例”列，也补充一条可复制的调用句：
+
+```markdown
+| [your-skill-name](Agent/your-skill-name/) | `触发关键字` | `使用 your-skill-name skill，完成...` | 简要功能描述 |
+```
+
+如果只是新增第三方外部 skill 记录，更新 `External/README.md` 的索引表即可；通常不需要修改根目录 README，除非新增了新的外部索引分组或规则。
 
 ## 5. 命名规范
 
