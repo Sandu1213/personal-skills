@@ -45,6 +45,7 @@ personal-skills/
 | [weekly-report](Work/weekly-report/) | `weekly report`、`生成周报` | `使用 weekly-report skill，帮我生成本周周报` | 周报生成：提供工作内容，自动按模板生成周报 |
 | [local-review](Work/local-review/) | `review current changes`、`评审代码`、`评审 PR` | `使用 local-review skill，review 当前工作区改动` | 代码评审：工作区 / commit / PR 分级 findings 与通过结论 |
 | [qa-review](Work/qa-review/) | 复杂交付、质量标准、迭代验证 | `使用 qa-review skill，验收这个网站改版` | 复杂交付质量对齐：建立领域标准、迭代验证、便于人工审核的呈现 |
+| [growth](Work/growth/) | `growth log health`、`growth log english`、`growth log finance`、`growth report` | `growth log health 今天跑步 5 公里` | 个人成长追踪：健康、英语学习、财务计划的日常记录与周期报告 |
 
 
 ## 🎮 Fun — 休闲类技能
@@ -53,6 +54,7 @@ personal-skills/
 |-------|-----------|-------------|------|
 | [video-downloader](Fun/video-downloader/) | `下载视频`、`download video` | `使用 video-downloader skill，下载这个视频链接` | 支持 YouTube/B站/X 等平台视频下载及音频提取 |
 | [wallpaper-generator](Fun/wallpaper-generator/) | `生成壁纸`、`wallpaper` | `使用 wallpaper-generator skill，生成赛博朋克城市壁纸` | 输入主题，生成6张适配主流手机的壁纸 |
+| [english_optimization_assistant](Fun/english_optimization_assistant/) | `优化英文`、`engineering English` | `使用 english_optimization_assistant skill，优化：fix bug` | 将任务短句改写为专业工程英语，附评分、错误分析与改进反馈 |
 
 
 ---
