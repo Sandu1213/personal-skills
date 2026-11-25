@@ -1,0 +1,4 @@
+interface:
+  display_name: "QA Review"
+  short_description: "对齐真实目标，以领域标准迭代验证，并选择便于理解和审核的输出形式"
+  default_prompt: "使用 $qa-review 完成本任务：先复述目标与问题，再建立验收标准、迭代验证，并选择适合审核的输出形式。"
