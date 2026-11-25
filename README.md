@@ -8,10 +8,18 @@
 
 ```
 personal-skills/
-├── Agent/         # Agent 协作、上下文管理、技能维护
-├── External/      # 第三方外部 skill 索引，不是可直接加载的 skill
-├── Work/          # 工作类技能
-└── Fun/           # 休闲类技能
+├── Agent/                          # Agent 协作、上下文管理、技能维护
+│   └── handoff/
+├── External/                       # 第三方外部 skill 索引，不是可直接加载的 skill
+├── Work/                           # 工作类技能
+│   ├── growth/
+│   ├── local-review/
+│   ├── qa-review/
+│   └── weekly-report/
+└── Fun/                            # 休闲类技能
+    ├── english_optimization_assistant/
+    ├── video-downloader/
+    └── wallpaper-generator/
 ```
 
 ---
@@ -35,7 +43,7 @@ personal-skills/
 | Skill | 触发关键字 | 直接调用示例 | 说明 |
 |-------|-----------|-------------|------|
 | [weekly-report](Work/weekly-report/) | `weekly report`、`生成周报` | `使用 weekly-report skill，帮我生成本周周报` | 周报生成：提供工作内容，自动按模板生成周报 |
-| [local-review](Work/local-review/) | `review current changes`、`评审代码`、`评审 PR` | `使用 local-review skill，review 当前工作区改动` | 代码评审：工作区 / commit / PR 分级 findings 与通过结论（来源 dev-log 3.15.1） |
+| [local-review](Work/local-review/) | `review current changes`、`评审代码`、`评审 PR` | `使用 local-review skill，review 当前工作区改动` | 代码评审：工作区 / commit / PR 分级 findings 与通过结论 |
 | [qa-review](Work/qa-review/) | 复杂交付、质量标准、迭代验证 | `使用 qa-review skill，验收这个网站改版` | 复杂交付质量对齐：建立领域标准、迭代验证、便于人工审核的呈现 |
 
 
